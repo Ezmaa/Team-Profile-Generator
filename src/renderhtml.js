@@ -55,7 +55,7 @@ const generateIntern = function (intern) {
 };
 
 // push array to page 
-generateHTML = (data) => {
+renderhtml = (data) => {
 
   // array for cards 
   pageArray = []; 
@@ -136,4 +136,4 @@ return`
 }
 
 // export to index
-module.exports = generateHTML; 
+module.exports = renderhtml; 
