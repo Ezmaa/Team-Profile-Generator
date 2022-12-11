@@ -79,9 +79,7 @@ const addManager = () => {
 
 const addEmployee = () => {
     console.log(`
-    =================
-    Adding employees to the team
-    =================
+   ....Adding employee to the team!
     `);
 
     return inquirer.prompt ([
@@ -172,13 +170,8 @@ const addEmployee = () => {
 
         if (role === "Engineer") {
             employee = new Engineer (name, id, email, github);
-
-            console.log(employee);
-
         } else if (role === "Intern") {
             employee = new Intern (name, id, email, school);
-
-            console.log(employee);
         }
 
         team.push(employee); 
@@ -198,11 +191,9 @@ const writeFile = data => {
     fs.writeFile('./dist/profile.html', data, err => {
         // if there is an error 
         if (err) {
-            console.log(err);
             return;
-        // when the profile has been created 
         } else {
-            console.log("Your team profile has been successfully created! Please check out the index.html")
+            console.log("Team profile has been successfully created! Please check out the index.html")
         }
     })
 }; 
