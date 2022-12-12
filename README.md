@@ -8,7 +8,7 @@ A Node.js command-line application that takes in information about employees on 
 * [Usage](#usage)
 * [License](#license)
 * [Tests](#tests)
-* [Contact Me](#contact me)
+* [Contact](#contact)
 # Installation 
 Clone the github repository and use npm i to install the required packages. Please install the inquirer dependencey in order to run the application. Use jest to test the application. 
 # Usage
@@ -20,6 +20,6 @@ This README.md generator is licensed under the MIT license.
 https://lbesson.mit-license.org/
 # Tests 
 Run npm test to run jest for test on constructors.
-# Contact Me:
+# Contact Me
 * Email: ezinmark@gmail.com
 * Github: https://github.com/${data.name}
