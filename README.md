@@ -20,6 +20,6 @@ This README.md generator is licensed under the MIT license.
 https://lbesson.mit-license.org/
 # Tests 
 Run npm test to run jest for test on constructors.
-# Contact Me
+# Contact
 * Email: ezinmark@gmail.com
 * Github: https://github.com/${data.name}
